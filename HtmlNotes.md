@@ -1,3 +1,4 @@
+### HTML Notes
 1.HTML-----> Hyper Text MarkUp Language
 
 2.HTML starts with opening and closing tags as shown below
@@ -59,7 +60,7 @@ navigation links, copyright information, site logos, and search forms.
 
 11. Anchor Tag represents the hyper link which makes webpage interactive.
     This tag has its own attributes like href,alt ...etc
-      syntax : <a href="WWW.xyz.com" alt="xyz"></a>
+         syntax : <a href="WWW.xyz.com" alt="xyz"></a>
     Note: href attribute represents the interactive link which takes us to the website
           alt attribute tells about the image or link if they doesnt work
 
