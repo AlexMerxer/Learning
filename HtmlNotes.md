@@ -7,8 +7,10 @@
 3.HTML has elements which we use to create webPage
    ex: body,h1,img,...etc
 
-4.After HTMl tag body tag starts
-    syntax ex:  <html>             
+4.After HTMl tag head and body tags are started
+    syntax ex:  <html>  
+                   <head>
+                   </head>           
                    <body>
                    </body>
                 </html>  
@@ -19,7 +21,7 @@
       ex: main,h1,h2,img...etc
 
 7.Starting with our heading tag it has h1,h2,h3,h4,h5,h6. All these represents the different 
-type of size. Remember that while using these tags tag with small number has the highest priority
+type of size. Remember that while using these tags,tag with small number has the highest priority
 in the web webPage 
         syntax Ex: <html>             
                       <body>
