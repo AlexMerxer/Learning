@@ -69,3 +69,12 @@ navigation links, copyright information, site logos, and search forms.
 12. Image tag is used to represent the graphical content of the web page.
     Image tag has its attributes which are src,alt,width,height...etc
               syntax ex: <img src="image path" alt="xyz">
+              Note: src attribute represents the path of the image
+
+13. "Hr" Tag is used to create horizontal lines in the HTML
+             syntax ex: <hr> <p>....</p>
+             Note: hr tag is used to create horizontal lines in the HTML
+
+14. "<b>" Tag is used make the words Bold
+             syntax ex: <b>....</b>
+                        
