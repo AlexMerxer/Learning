@@ -65,6 +65,8 @@ navigation links, copyright information, site logos, and search forms.
          syntax : <a href="WWW.xyz.com" alt="xyz"></a>
     Note: href attribute represents the interactive link which takes us to the website
           alt attribute tells about the image or link if they doesnt work
+          Target tag is used make the link to open in new tab
+          Syntax ex: target ="_blank"
 
 12. Image tag is used to represent the graphical content of the web page.
     Image tag has its attributes which are src,alt,width,height...etc
