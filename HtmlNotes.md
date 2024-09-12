@@ -79,4 +79,53 @@ navigation links, copyright information, site logos, and search forms.
 
 14. "<b>" Tag is used make the words Bold
              syntax ex: <b>....</b>
-                        
+
+15. <Ol> Tag is called Ordered list and the is list represented by numbers,Letters,and Roman  numbers.
+         Syntax ex: <ol type="a" or "1" or "i">
+                        <li>....</li>
+                        <li>....</li>
+                        <li>....</li>
+                     </ol>   
+             Note: You can also choose from where to start by giving Start="5" or anything      
+
+16. <ul> Tag is called Unordered list and the list is represented in bullet points
+         Syntax ex: <ul>
+                        <li>....</li>
+                        <li>....</li>
+                        <li>....</li>
+                     </ol> 
+
+17.HTML entities are used to represent specialized symbols like ">","<" and many more
+         Syntax ex: "&copy"---> represents copy right symbol.
+         Note: Google for more
+
+18. In HTML we can use Section tag to Seperate the Content or the content which differs from
+     others.
+        Syntax ex: <section>....</section>
+        Note: You can use section tag to separate the content which differs from others.
+
+19. Form tag is used to create forms which takes input from users.
+         Syntax ex: <form action="xyz.com" method="post">
+         <input type="text" name="xyz">
+         <input type="submit" name="xyz">
+         </form>
+         Note: action attribute represents the path where the form data will be sent and for more attributes google 
+               them.
+
+20. Button Element is used to create a Clickable button
+        Syntax ex: <button>Click me</button>
+        Note: You can use button element to create a clickable button.
+
+21. You can use radio buttons for questions where you want only one answer out of multiple options.
+       Syntax ex: <input type="radio" name="xyz" value="abc">
+
+22. label elements are used to help associate the text for an input element with the input element itself                                                                                                            (especially for assistive technologies like screen readers)
+       Syntax ex: <label for="xyz">Click me</label>
+
+23. The id attribute is used to identify specific HTML elements. Each id attribute's value must be unique from all other id values for the entire page.
+      Syntax ex: <p id="xyz">Click me</p>
+
+24. The fieldset element is used to group related inputs and labels together in a web form. fieldset elements are block-level elements, meaning that they appear on a new line.
+     Syntax ex: <fieldset>
+
+
