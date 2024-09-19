@@ -119,7 +119,7 @@ navigation links, copyright information, site logos, and search forms.
 21. You can use radio buttons for questions where you want only one answer out of multiple options.
        Syntax ex: <input type="radio" name="xyz" value="abc">
 
-22. label elements are used to help associate the text for an input element with the input element itself                                                                                                            (especially for assistive technologies like screen readers)
+22. label elements are used to help associate the text for an input element with the input    element itself.                                                                               (especially for assistive technologies like screen readers)
        Syntax ex: <label for="xyz">Click me</label>
 
 23. The id attribute is used to identify specific HTML elements. Each id attribute's value must be unique from all other id values for the entire page.
@@ -127,5 +127,16 @@ navigation links, copyright information, site logos, and search forms.
 
 24. The fieldset element is used to group related inputs and labels together in a web form. fieldset elements are block-level elements, meaning that they appear on a new line.
      Syntax ex: <fieldset>
+
+25. The legend element acts as a caption for the content in the fieldset element. It gives users context about what they should enter into that part of the form
+     Syntax ex: <legend>Enter your name</legend>
+
+26. In order to make a checkbox checked or radio button selected by default, you need to add the checked attribute to it.
+Here is an example of a radio button with the checked attribute:
+    Syntax ex: <input checked type="radio" name="meal" value="breakfast"> Breakfast
+There's no need to set a value to the checked attribute. Instead, just add the word checked to the input element, making sure there is space between it and other attribute values.
+
+27. The footer element is used to define a footer for a document or section. A footer typically contains information about the author of the document, copyright data, links to terms of use, contact information, and more.
+    Syntax ex: <footer>Footer content</footer>
 
 
