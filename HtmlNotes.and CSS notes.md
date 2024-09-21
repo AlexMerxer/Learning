@@ -139,4 +139,46 @@ There's no need to set a value to the checked attribute. Instead, just add the w
 27. The footer element is used to define a footer for a document or section. A footer typically contains information about the author of the document, copyright data, links to terms of use, contact information, and more.
     Syntax ex: <footer>Footer content</footer>
 
+28. You can add style to an element by specifying it in the style element
+    Syntax ex: <style>body {background-color: #f2f2f2;
+        Example Code
+         element {
+         property: value;
+        }
 
+29. You can add the same group of styles to many elements by creating a list of selectors. Each selector is separated with commas like this:
+     Syntax ex: <style>h1, h2, h3 {
+       Example Code
+       selector1, selector2 {
+           property: value;
+        } 
+
+30. You have styled three elements by writing CSS inside the style tags. This works, but since there will be many more styles, it's best to put all the styles in a separate file and link to it.
+    Syntax ex: <link rel="stylesheet" type="text/css" href="styles.css">
+
+31. For the styling of the page to look similar on mobile as it does on a desktop or laptop, you need to add a meta element with a special content attribute.
+    Add the following within the head element:
+    Example Code
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+
+32. The div element is used mainly for design layout purposes unlike the other content elements you have used so far. Add a div element inside the body element and then move all the other elements inside the new div.
+       Syntax ex: <div>
+       ex: <div id = "menu">
+             <main>
+             <h1>CAMPER CAFE</h1>
+             <p>Est. 2020</p>
+             <section>
+             <h2>Coffee</h2>
+             </section>
+              </main>
+            </div>
+
+33. The goal now is to make the div not take up the entire width of the page. The CSS width property is perfect for this.You can use the id selector to target a specific element with an id attribute. An id selector is defined by placing the hash symbol # directly in front of the element's id value. For example, if an element has the id of cat then you would target that element like this:
+        Example Code:
+              #cat {
+               width: 250px;
+              }
+
+34. Comments in CSS look like this:
+              Example Code:
+               /* comment here */
